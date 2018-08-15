@@ -1,0 +1,7 @@
+ISSUS:
+[root@boschmaster01 ~]# kubectl logs -n kube-system heapster-7bbfc99484-nj9jv
+Error from server: Get https://boschnode02:10250/containerLogs/kube-system/heapster-7bbfc99484-nj9jv/heapster: dial tcp: lookup boschnode02: too many open files
+
+RESOLVE:
+[root@boschmaster01 ~]# kubectl logs -n kube-system heapster-7bbfc99484-nj9jv
+Error from server: Get https://boschnode02:10250/containerLogs/kube-system/heapster-7bbfc99484-nj9jv/heapster: dial tcp: lookup boschnode02: too many open files
